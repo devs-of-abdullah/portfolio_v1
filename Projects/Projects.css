@@ -1,0 +1,93 @@
+@import url('../Main/main.css');
+.cls-Projects{
+    background: var(--second-bg);
+    width: 100%;
+ text-align: center;
+ border: var(--border-width) solid var(--border);
+ border-radius: var(--radius);
+}
+.cls-Projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    background: var(-second-bg);
+    color: var(--text);
+    margin: var(--items-margin); 
+}
+.cls-project{
+display: grid;
+grid-template-columns: 1fr;
+border: var(--border-width) solid var(--border);
+border-radius: var(--radius);
+padding: 10px;
+background: var(--bg);
+
+}
+.cls-project img{
+    
+    width: 100%; height: 200px;
+    object-fit:cover;
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+  outline: var(--border-width) solid var(--border);
+    
+
+}
+.cls-project-title{
+    padding: var(--items-padding);
+    border-bottom: 1px dotted var(--border);
+}
+.cls-project-description{
+        padding: var(--items-padding);
+         border-bottom: 1px dotted var(--border);
+
+
+}
+.cls-project-techstack{
+        padding: var(--items-padding);
+    border-bottom: 1px dotted var(--border);
+
+}
+.cls-project-livedemo-btn{
+    padding: var(--items-padding);
+      border:1px solid var(--border);
+border-radius: var(--radius);
+opacity: 0.9;
+cursor: pointer;
+background: var(--second-bg);
+}
+.cls-project-viewcode-btn{
+        padding: var(--items-padding);
+        border:1px solid var(--border);
+border-radius: var(--radius);
+cursor: pointer;
+background: var(--second-bg);
+
+}
+.cls-project-viewcode-btn:hover{
+    transform: scale(1.1);
+}
+.cls-project-livedemo-btn:hover{
+    transform: scale(1.1);
+}
+.cls-project-btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+  padding: var(--items-padding);
+  gap:1rem;
+  
+}
+.cls-project a{
+    text-decoration: none;
+    color: var(--text);
+}
+@media (max-width:1000px){
+    .cls-Projects-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:500px){
+    .cls-Projects-container{
+        grid-template-columns: 1fr;
+    }
+}

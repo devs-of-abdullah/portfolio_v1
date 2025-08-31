@@ -1,0 +1,47 @@
+@import url("../Main/main.css");
+.cls-contact{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    background: var(--bg);
+    border: var(--border-width) solid var(--border);
+    border-radius: var(--radius);
+ 
+
+}
+.cls-contact-header{
+    margin: var(--items-margin);
+}
+.cls-contact a{
+    
+ border: 1px solid var(--border);
+ border-radius: var(--radius);
+ text-align: center;
+ text-decoration: none;
+ font-size:xx-large;
+    padding: var(--items-padding);
+    margin: var(--items-margin); 
+    color: var(--text);
+    background: var(--second-bg);
+}
+
+.cls-contact svg{
+    width: 40px;
+    height: 40px;
+   padding-top:10px ;
+ 
+
+}
+.cls-contact-paragraph{
+   
+    text-align:center;
+    margin: var(--items-margin);
+}
+.cls-contact a:hover{
+
+  
+transform: scale(1.05);
+border-color: 2px dotted var(--text);
+
+    
+}

@@ -1,0 +1,26 @@
+@import url('../Main/main.css');
+
+.cls-about{
+    background: var(--second-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: var(--items-padding);
+border: var(--border-width) solid var(--border);
+border-radius: var(--radius);
+   width: 100%;
+   
+   
+}
+.cls-about h2{
+
+    background: var(--second-bg);
+    text-align: center;
+}.cls-about p{
+    background: var(--second-bg);
+}
+.cls-about b{
+    background: var(--second-bg);
+}
