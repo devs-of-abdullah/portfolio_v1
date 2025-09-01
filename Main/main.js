@@ -1,7 +1,7 @@
 fetch("../About/About.html")
   .then((res) => res.text())
   .then((data) => {
-    document.getElementById("id-about-container").innerHTML = data;
+    document.getElementById("index.html/id-about-container").innerHTML = data;
   })
   .catch((err) => console.error("Error loading About page:", err));
 
